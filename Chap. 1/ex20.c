@@ -16,7 +16,6 @@
 #define CALC_NUM_SPACE(pos) (TAP_STOP - (pos % TAP_STOP))   /* Calc the number of spaces to replace the tab char. given that the current column is at pos */
 
 /*
-    Program: detab 
     Replace each tab ('\t') character with the proper number of blanks to space to the next tab stop. 
 */
 int main(void)

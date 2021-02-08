@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* Solution of exercise 1.20 */ 
+
 /* 
     Please notice that I am writing this for my practice, thus I may do things just for practice.  
     Also, there may be mistakes. 

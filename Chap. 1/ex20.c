@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* 
-    Please notice that I am writing this my practice, thus I may do things just for practice.  
+    Please notice that I am writing this for my practice, thus I may do things just for practice.  
     Also, there may be mistakes. 
     Author: Ahmed Alaa
 */ 

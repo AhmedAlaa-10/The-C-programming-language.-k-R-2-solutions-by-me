@@ -8,7 +8,7 @@
     Author: Ahmed Alaa
 */ 
 
-#define TAP_STOP 5          /* There is a tap stop every TAP_STOP columns. Exactly at columns 0, 5, 10, .. if TAP_STOP = 5 */ 
+#define TAP_STOP 8         /* There is a tap stop every TAP_STOP columns. Exactly at columns 0, 5, 10, .. if TAP_STOP = 5 */ 
 #define SPACE ' '           /* A space character */
 #define TAP '\t'            /* A tab character */ 
 #define NEW_LINE '\n'       /* A new line character */ 

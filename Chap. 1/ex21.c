@@ -20,7 +20,7 @@ void process_space_seq(int start_pos, int end_pos);     /* replace the sequence 
 int find_next_tap_stop_pos(int col_pos);                
 
 
-int main ()
+int main (void)
 {
     int ch, col_pos, start_pos, end_pos, state;
 

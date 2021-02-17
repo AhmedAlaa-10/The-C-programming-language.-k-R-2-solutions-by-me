@@ -19,7 +19,7 @@ void skip_multiple_line_comment();
 
 int main(void)
 {
-    char cur_char; 
+    int cur_char; 
     bool prev_forward_slash = false;    // to handle //, /*
     bool prev_single_quote = false;     // to handle '"' 
     bool prev_back_slash = false;       // to handle '\"' 
@@ -65,7 +65,7 @@ void print_quoted_string()
     putchar(DOUBLE_QUOTE_CHAR);   /* print the start quote of the string */ 
 
     bool prev_char_is_escape_char = false;  /* used to handle the escape sequences issues. for example:  "\\" , "\"", "\\\\\"" */ 
-    char cur_char;
+    int cur_char;
     while (1) {
         cur_char = getchar(); 
         
@@ -89,11 +89,11 @@ void skip_single_line_comment()
 
 void skip_multiple_line_comment()
 {
-    char prev_char = '/'; 
-    char cur_char = '*'; 
+    int prev_char = '/'; 
+    int cur_char = '*'; 
 
     while (1) {
-        char cur_char = getchar(); 
+        cur_char = getchar(); 
 
         if (prev_char == '*' && cur_char == '/') {
             putchar(NEW_LINE_CHAR); 
